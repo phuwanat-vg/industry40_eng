@@ -1,0 +1,9 @@
+/* src/components/Dashboard.css */
+.text-overlay {
+    position: relative; /* Use relative positioning for the text */
+    color: rgb(0, 0, 0); /* Change text color for contrast */
+    text-align: center; /* Center the text */
+    z-index: 1; /* Ensure the text appears above the image */
+    margin-top: 20px; /* Space from the top */
+  }
+  

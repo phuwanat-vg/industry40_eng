@@ -1,0 +1,9 @@
+.table th {
+    position: relative;
+  }
+  
+  .sort-icon {
+    margin-left: 5px;
+    font-size: 0.8em; /* Adjust size as necessary */
+    color: #007bff; /* Change color if needed */
+  }

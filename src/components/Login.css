@@ -1,0 +1,56 @@
+/* src/Login.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.left-image {
+  flex: 0.8; /* Take up 50% of the container */
+  display: flex-start;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3032; /* Light background for contrast */
+}
+
+.left-image img {
+  max-width: 200%;
+  max-height: 200%;
+  object-fit: cover; /* Cover the available space without distortion */
+}
+
+.right-content {
+  flex: 0.2; /* Adjusts the width ratio between image and content */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: left; /* Center horizontally */
+  padding: 100px; /* Add padding for better layout */
+  margin-top: 50px; /* Adjust this value to move the content higher */
+}
+
+h2 {
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.form-control {
+  width: 200%; /* Full width of the input field */
+  max-width: 400px; /* Limit maximum width */
+  margin-bottom: 15px; /* Add spacing between inputs */
+}
+
+.btn {
+  width: 200%; /* Full width of the button */
+  max-width: 400px; /* Limit maximum width */
+}
+
+.btn-link {
+  margin-top: 10px;
+  text-align: center;
+}

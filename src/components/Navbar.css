@@ -1,0 +1,13 @@
+/* Navbar.css */
+.navbar {
+    font-size: 18px; /* Adjust the font size for the entire navbar */
+  }
+  
+  .nav-link {
+    font-size: 18px; /* Adjust the font size for the nav links */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Adjust the font size for the brand name */
+  }
+  

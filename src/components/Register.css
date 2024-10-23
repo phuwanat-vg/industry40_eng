@@ -1,0 +1,43 @@
+/* src/components/Register.css */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;     /* Centers horizontally */
+    height: 100vh;          /* Full height of the viewport */
+    text-align: center;      /* Centers text inside */
+    padding: 20px;          /* Add padding inside the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+    border-radius: 10px;    /* Optional: Rounds the corners */
+    background-color: white; /* Optional: Background color for contrast */
+    max-width: 500px;       /* Max width to prevent it from being too wide */
+    margin: auto;           /* Centers the container horizontally */
+  }
+  
+  h1 {
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  label {
+    font-size: 1.5rem; /* Increased label font size */
+    margin-bottom: 0.5rem; /* Space below label */
+  }
+  
+  input {
+    font-size: 1.5rem; /* Increased input font size */
+    padding: 0.75rem;  /* Increased padding inside the text box */
+    width: 100%; /* Full width for better usability */
+    max-width: 400px; /* Optional: max width for input boxes */
+    margin-bottom: 1rem; /* Space below input boxes */
+  }
+  
+  button {
+    font-size: 1.5rem; /* Increased button font size */
+    padding: 0.75rem 1.5rem; /* Increased padding for the button */
+  }
+  
+  a {
+    margin-top: 20px; /* Space above the link */
+    font-size: 1.2rem; /* Increased font size for link */
+  }
+  
